@@ -18,7 +18,9 @@ body {
   color: gray;
   background: whitesmoke; }
 
-#page {
+
+
+  #page {
   position: relative;
   overflow-x: hidden;
   width: 100%;
@@ -319,12 +321,12 @@ h1, h2, h3, h4, h5, h6, figure {
         position: relative; }
     .video-hero .display-tc h2 {
       color: #fff;
-      font-size: 30px;
+      font-size: 25px;
       margin-bottom: 20px;
       font-weight: 300; }
     .video-hero .display-tc h1 {
         color: #fff;
-        font-size: 60px;
+        font-size: 55px;
         margin-bottom: 20px;
         font-weight: 300; }
       @media screen and (max-width: 768px) {
@@ -373,9 +375,22 @@ h1, h2, h3, h4, h5, h6, figure {
     -webkit-box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.75);
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    position: relative;
+    height: "100%";
+     }
+     .colorlib-featured .featured-entry1 iframe {
+      -webkit-box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.75);
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+      padding-top: 56.25%;
+      
+       }
 
-  .wrapper {
+       .wrapper {
         position: relative;
         overflow: hidden;
         padding-top: 56.25%;
@@ -412,7 +427,7 @@ h1, h2, h3, h4, h5, h6, figure {
       color: #798eea;
       z-index: 1; }
   .services .desc h3 {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 300; }
 
 .colorlib-intro .colorlib-heading {
@@ -1377,14 +1392,14 @@ input[type="text"] {
   color: #fff;
   border: 1px solid #00b0ac; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #5ed092 !important;
-    border-color: #5ed092 !important; }
+    background: #00b0ac !important;
+    border-color: #00b0ac !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #4aca85;
-    border: 1px solid #4aca85; }
+    color: #00b0ac;
+    border: 1px solid #00b0ac; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #4aca85;
+      background: #00b0ac;
       color: #fff; }
 
 .btn-success {
